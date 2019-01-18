@@ -6,17 +6,18 @@
 3. NumPy
 4. matplotlib
 5. scipy
-6. (optional) igraph (required for analysis-network)
+6. sklearn
+7. (optional) igraph (required for analysis-network)
 
 ## Preparation
 In data folder unzip both data files which are zipped (this is because GitHub won't let us upload huge files)
 
 ## Order of operations
-1. Run analysis notebook to generate the list of genes products which are statistically significantly different between stage 1 and stage 2 tumors, stage 1 and stage 3 tumors and stage 2 and stage 3 tumors
+1. Run analysis notebook to generate the list of genes products which are statistically significantly different between stage 1 and stage 2 tumors, stage 1 and stage 3 tumors and stage 2 and stage 3 tumors.  This program also applies deep learning to generate a model to categorize tumors into stages by gene expression levels
 
 2. Run vizualization-gephi-simplified notebook to generate the graph (gml file) of one of the sets of nodes identified by step 1
 
-3. Open gml file in Gephi to produce results (using CircularPack layout to generate clusters based on modularity) .gephi files in out folder have all settings we used
+3. Open gml file in Gephi to produce results (using CircularPack layout to generate clusters based on modularity and size based on page rank) .gephi files in out folder have all settings we used
 
 4. (Optional) run analysis-network to demonstrate scale free network 
 

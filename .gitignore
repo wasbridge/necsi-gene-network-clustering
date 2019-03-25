@@ -2,3 +2,4 @@
 .ipynb_checkpoints
 data/9606.protein.aliases.v10.5.txt
 data/9606.protein.links.v10.5.txt
+MOCA-data/*
